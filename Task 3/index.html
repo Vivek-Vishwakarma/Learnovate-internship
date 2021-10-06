@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vivek - Task 3</title>
+  </head>
+  <body>
+    <!-- Task
+1.create a page where you have to display images(can download from browser) and display those using grid each row consists of 3 images and total 3 rows(I e , 9 images) and when you click on each image a modal has to appear in that modal diaplay the person name ,contact info and address
+
+2.create a page using any flex item display gifs each has to display 3 gifs and each row items display must be different(like for example use justify-content-center for first row and justify-content-around for second row) totally 3 rows. -->
+
+    <h1 class="heading">Modal/Gallery</h1>
+    <div class="modalDiv">
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?nature"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?water"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?media"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?technology"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?book"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?anime"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?space"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?sky"></div>
+      <div class="grid"><img class="img1" src="https://source.unsplash.com/250x250/?fire"></div>
+      <div class="modal">
+        <img class="modalImg" src="">
+        <div class="cross">&#10060;</div>
+        <p>Name : Vivek</p>
+        <p>Contact : 9999999999</p>
+        <p>Mail : Mail@email.com</p>
+      </div>
+    </div>
+      <br><br>
+    <h1 class="heading">Display Flex</h1>
+
+    <div class="flexBox">
+      <h3 class="heading">justify-content-space-between</h3>
+      <div class="first">
+        <div class="gif"><img src="./gifs/1.gif"></div>
+        <div class="gif"><img src="./gifs/2.gif"></div>
+        <div class="gif"><img src="./gifs/3.gif"></div>
+      </div>
+      <br>
+      <h3 class="heading">justify-content-space-around</h3>
+      <div class="second">
+        <div class="gif"><img src="./gifs/1.gif"></div>
+        <div class="gif"><img src="./gifs/2.gif"></div>
+        <div class="gif"><img src="./gifs/3.gif"></div>
+      </div>
+      <br>
+      <h3 class="heading">justify-content-center</h3>
+      <div class="third">
+        <div class="gif"><img src="./gifs/1.gif"></div>
+        <div class="gif"><img src="./gifs/2.gif"></div>
+        <div class="gif"><img src="./gifs/3.gif"></div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

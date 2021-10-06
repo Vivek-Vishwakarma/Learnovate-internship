@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.heading {
+  margin-top: 20px;
+  text-align: center;
+  background: #121fcf;
+  background: -webkit-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: -moz-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.modalDiv {
+  position: relative;
+    justify-content: space-around;
+    height: auto;
+    width: 80vw;
+    grid-gap: 10px;
+    margin:20px auto;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px 250px 250px;
+}
+.grid{
+    place-items: center;
+    margin:10px;
+    height: 250px;
+    width: 250px;
+}
+.grid img{
+    margin:10px;
+    height: 250px;
+    width: 250px;
+    cursor: pointer;
+}
+.grid img:hover{
+  opacity: 0.8;
+}
+.modal{
+  height: 110vh;
+  width: 98vw;
+  left: -80%;
+  overflow: auto;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  transition: all 1s ease-in-out;
+  background-color: hsl(0, 0%, 90%);
+}
+.cross{
+  right: 30px;
+  top: 15px;
+  position: absolute;
+  cursor: pointer;
+}
+.modal img{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+p,h3{
+  text-align: center;
+  margin: 5px;
+}
+.flexBox{
+  width: 98vw;
+}
+.first{
+  width: 98vw;
+  display: flex;
+  justify-content: space-between;
+}
+.second{
+  width: 98vw;
+  display: flex;
+  justify-content: space-around;
+}
+.third{
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+}
+.gif{
+  height: 250px;
+  width: 300px;
+}
+.gif img{
+  height: 250px;
+  width: 300px;
+}
